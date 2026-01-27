@@ -1,0 +1,11 @@
+on:
+  issues:
+    types: [opened]
+jobs:
+  auto-assign:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: pozil/auto-assign-issue@v2
+        with:
+          teams: triage
+          repo-token: ${{ secrets.READ_TOKEN }}
