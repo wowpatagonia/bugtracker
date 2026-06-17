@@ -1,7 +1,6 @@
 ---
 name: 🐛 Reportar Bug - Servidor
 about: Reportar un bug del servidor (Wrath of the Lich King)
-title: "[BUG] "
 labels: ["Bug", "Triage"]
 assignees: ""
 ---
